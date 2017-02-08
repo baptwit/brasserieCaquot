@@ -5,7 +5,7 @@
  Author:       Baptiste Caquot
  Author URI:   http://baptistecaquot.fr
  Template:     sydney
- Version:      0.0.1
+ Version:      0.0.2
  License:      copyright
  License URI:
  Tags:
@@ -30,4 +30,30 @@
 		url('BigCaslon-Medium.ttf') format('truetype');
 	font-weight: 500;
 	font-style: normal;
+}
+
+h1 {
+  font-family: 'Big Caslon';
+  letter-spacing: 11px !important;
+}
+h3 {
+  font-family: 'Big Caslon';
+}
+.maintitle {
+  font-family: 'Big Caslon';
+  letter-spacing: 11px !important;
+}
+
+.pos {
+    text-align: justify;
+}
+
+.sow-features-list .sow-features-feature h5 {
+  text-align: center;
+}
+.site-info.container {
+    display: none;
+}
+.roll-team .team-item .team-pop .pos {
+    display: none;
 }
